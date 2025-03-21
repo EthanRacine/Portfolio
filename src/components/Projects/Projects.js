@@ -8,6 +8,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import donkas from "../../Assets/Projects/donkas.png";
 import iosChants from "../../Assets/Projects/iosChants.jpg";
 import quizitude from "../../Assets/Projects/quizitude.png";
+import pantryplanner from "../../Assets/Projects/pantryplanner.png";
 
 function Projects() {
   return (
@@ -49,8 +50,18 @@ function Projects() {
               isBlog={false}
               title="iOS Chants App"
               description="An iOS app allowing soccer/football fans to create, share, and vote on chants for their favourite teams. Built in Swift with Firebase for user authentication, real-time database management, and media storage."
-              ghLink="https://gitlab.com/ethanras/chant-app"
-              // demoLink="https://editor.soumya-jit.tech/"              
+              ghLink="https://gitlab.com/ethanras/chant-app"              
+            />
+          </Col>
+        </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pantryplanner}
+              isBlog={false}
+              title="Pantry Planner"
+              description="A web applications that aims to help users plan their meals by seeing recipes based on their pantry, and save money when shopping.  Coles and Woolworths prices are used to help see the price per portion of recipes, as well as help with planning a shopping list."
+              demoLink="https://pantry-planner-sooty.vercel.app/"
             />
           </Col>
         </Row>
