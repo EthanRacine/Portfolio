@@ -60,7 +60,7 @@ function Projects() {
               imgPath={pantryplanner}
               isBlog={false}
               title="Pantry Planner"
-              description="A web applications that aims to help users plan their meals by seeing recipes based on their pantry, and save money when shopping.  Coles and Woolworths prices are used to help see the price per portion of recipes, as well as help with planning a shopping list."
+              description="A web applications that aims to help users plan their meals by seeing recipes based on their pantry, and save money when shopping, as well as being able to import recipes from URLs, photos and text. Supermarket prices are used to help see the price per portion of recipes, as well as help with planning a shopping list."
               demoLink="https://pantry-planner-sooty.vercel.app/"
             />
           </Col>
